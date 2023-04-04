@@ -3,7 +3,6 @@ import os
 import shlex
 import subprocess
 import sys
-# import time
 import uuid
 from datetime import datetime
 from datetime import timedelta
@@ -147,7 +146,7 @@ def get_token(client_id, jwt, ticket=""):
 
 
 def main():
-    with open("client_id") as f:
+    with open("scim_client_id") as f:
         client_id = f.read().strip()
 
     req = get_users()
@@ -156,6 +155,7 @@ def main():
         print(req.url)
         print(req.request.body)
         print(req.headers)
+        print(req.reason)
 
         ticket = ""
         for auth in [header.strip() for header in req.headers["WWW-Authenticate"].split(",")]:

@@ -16,7 +16,7 @@ An example on how to use SCIM API using UMA protection mode.
     Save them under directory where `scim_uma.py` is located.
 
 1.  Get `scim_rp_client_jks_pass` secret from Vault/k8s secret backend, save it into `scim_rp_jks_pass` file.
-1.  Get `scim_rp_client_id` config from Consul/k8s config backend, save it into `client_id` file.
+1.  Get `scim_rp_client_id` config from Consul/k8s config backend, save it into `scim_client_id` file.
 
 ## Usage
 
@@ -51,7 +51,7 @@ An example on how to use oxTrust API using UMA protection mode.
     Save them under directory where `oxtrust_api_uma.py` is located.
 
 1.  Get `api_rp_client_jks_pass` secret from Vault/k8s secret backend, save it into `api_rp_jks_pass` file.
-1.  Get `oxtrust_requesting_party_client_id` config from Consul/k8s config backend, save it into `client_id` file.
+1.  Get `oxtrust_requesting_party_client_id` config from Consul/k8s config backend, save it into `api_client_id` file.
 
 ## Usage
 

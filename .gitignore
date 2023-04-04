@@ -129,16 +129,16 @@ dmypy.json
 .pyre/
 
 # scim
-scim/client_id
-scim/scim-rp.jks
-scim/scim-rp-keys.json
-scim/scim-rp.pem
-scim/scim-rp.pkcs12
-scim/scim_rp_jks_pass
+scim_client_id
+scim-rp.jks
+scim-rp-keys.json
+scim-rp.pem
+scim-rp.pkcs12
+scim_rp_jks_pass
 
-oxtrust_api/client_id
-oxtrust_api/api-rp.jks
-oxtrust_api/api-rp-keys.json
-oxtrust_api/api-rp.pem
-oxtrust_api/api-rp.pkcs12
-oxtrust_api/api_rp_jks_pass
+api_client_id
+api-rp.jks
+api-rp-keys.json
+api-rp.pem
+api-rp.pkcs12
+api_rp_jks_pass
